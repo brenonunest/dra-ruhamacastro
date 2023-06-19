@@ -862,10 +862,12 @@ section {
 .recent-posts .post-box .post-img {
   overflow: hidden;
   position: relative;
+  height: 400px; /* Defina a altura desejada para os quadros */
 }
 
-.recent-posts .post-box .post-img img {
-  transition: 0.5s;
+.recent-posts .post-box .post-img {
+  background-size: cover;
+  background-position: center;
 }
 
 .recent-posts .post-box .meta {
@@ -917,8 +919,10 @@ section {
   color: var(--color-primary);
 }
 
-.recent-posts .post-box:hover .post-img img {
+.recent-posts .post-box:hover .post-img {
   transform: scale(1.1);
+}
+
 }
 
 
