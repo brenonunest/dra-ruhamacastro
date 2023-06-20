@@ -5,7 +5,7 @@ const routes = express.Router() // por padrão pular duas linhas sempre após im
 routes.get('/',(req,res) =>{
     res.render('index')
 })
-routes.get('/about',(req,res) =>{
+routes.get('/ultraformer',(req,res) =>{
     res.render('pages/aboutSections/index')
 })
 routes.get('/login',(req,res) =>{
