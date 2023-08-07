@@ -8,8 +8,8 @@ routes.get('/',(req,res) =>{
 routes.get('/ultraformer',(req,res) =>{
     res.render('pages/aboutSections/index')
 })
-routes.get('/login',(req,res) =>{
-    res.render('pages/login')
+routes.get('/glowup',(req,res) =>{
+    res.render('pages/glowup')
 })
 routes.get('/botox',(req,res) =>{
     res.render('pages/botox')
