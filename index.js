@@ -9,6 +9,6 @@ app.use(express.static('public'))
 
 app.use('/', routes)
 
-app.listen(dra-ruhamacastro, ()=>{
+app.listen(3000, ()=>{
     console.log("Sucesso") // funciona para printar e mostrar o que esta acontecendo com determinada funçao
 })
