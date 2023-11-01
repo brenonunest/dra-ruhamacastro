@@ -1,14 +1,15 @@
-const express = require ("express")
-const routes = require("./config/routes")
-const app = express ()
+const express = require("express");
+const routes = require("./config/routes");
+const app = express();
 
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
-app.set('view engine', 'ejs')
+// Configura a porta para usar a variável de ambiente PORT ou 3000 localmente
+const port = process.env.PORT || 3000;
 
-app.use(express.static('public'))
+app.listen(port, () => {
+    console.log("Aplicativo está online na porta " + port);
+});
 
-app.use('/', routes)
-
-app.listen(3000, ()=>{
-    console.log("Sucesso") // funciona para printar e mostrar o que esta acontecendo com determinada funçao
-})
+app.use('/', routes);
