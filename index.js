@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // Configura a porta para usar a variável de ambiente PORT ou 3000 localmente
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
     console.log("Aplicativo está online na porta " + port);
