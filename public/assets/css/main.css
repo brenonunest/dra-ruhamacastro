@@ -175,7 +175,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(86, 184, 230, 0.8);
+  background: rgba(230, 86, 115, 0.8);
   color: #fff;
 }
 
@@ -331,7 +331,7 @@ section {
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0px 0px 30px rgba(161, 127, 133, 0.25);
     transition: 0.2s;
   }
 
@@ -414,7 +414,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(27, 47, 69, 0.9);
+    background: rgba(69, 27, 35, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -640,13 +640,13 @@ section {
 .why-us h4 {
   font-size: 18px;
   font-weight: 400;
-  color: #29486a;
+  color: #6a292a;
   font-family: var(--font-secondary);
 }
 .why-us p {
   font-size: 18px;
   font-weight: 400;
-  color: #29486a;
+  color: #6a2936;
   font-family: var(--font-secondary);
 }
 
@@ -749,7 +749,7 @@ section {
   font-size: 32px;
   line-height: 0;
   margin-right: 20px;
-  color: #38618e;
+  color: #8e3849;
 }
 
 .services-list .service-item .title {
@@ -1025,7 +1025,7 @@ section {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
+  box-shadow: 0px 0 20px rgba(69, 27, 27, 0.1);
   background: #fff;
   min-height: 320px;
   display: flex;
