@@ -763,7 +763,7 @@ section {
 }
 
 .services-list .service-item .title a:hover {
-  color: #38618e;
+  color: #8e3848;
 }
 
 .services-list .service-item .description {
@@ -838,7 +838,7 @@ section {
 
 .features .icon-list span {
   font-size: 18px;
-  color: #29486a;
+  color: #6a2930;
 }
 
 .features .phone-wrap {
