@@ -132,7 +132,7 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: #fff;);
+  color: #fff;;
 }
 
 .breadcrumbs ol a {
@@ -516,16 +516,7 @@ section {
   z-index: 3;
 }
 
-@media (min-width: 1034px) {
-  .hero:after {
-    position: absolute;
-    content: "";
-    width: 40%;
-    background: var(--color-secondary);
-    top: 0;
-    bottom: 0;
-  }
-}
+
 
 .hero:before {
   position: absolute;
@@ -561,7 +552,7 @@ section {
 
 .hero blockquote {
   color: var(--color-letter);
-  padding-left: 20px;
+  padding-left: 10px;
   font-size: 15px;
   font-family: var(--font-default);
   border-left: 2px solid var(--color-primary);
@@ -596,7 +587,7 @@ section {
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
-  margin-right: 8px;
+  margin-right: 19px;
 }
 
 .hero .btn-watch-video:hover {
@@ -978,7 +969,7 @@ section {
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: bold;
-  color: var(--color-letter));
+  color: var(--color-letter);
 
   position: relative;
   padding-bottom: 12px;
