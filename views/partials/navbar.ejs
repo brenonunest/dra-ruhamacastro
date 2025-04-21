@@ -1,25 +1,28 @@
-<header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header d-flex align-items-center fixed-top" itemscope itemtype="https://schema.org/LocalBusiness">
+  <meta itemprop="name" content="Dra. Ruhama Castro - Clínica de Estética em Luziânia">
+  <meta itemprop="url" content="https://www.draruhamacastro.com">
+
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-    <!-- Logo com altura maior -->
     <a href="/" class="logo d-flex align-items-center" style="padding: 8px 0;">
-      <img src="/assets/img/LOGO-PRINCIPAL.png" alt="Logo Ruhama Castro" style="max-height: 200px;">
+      <img src="/assets/img/LOGO-PRINCIPAL.png" alt="Logo da clínica de estética Dra. Ruhama Castro em Luziânia" style="max-height: 200px;">
     </a>
 
-    <!-- Ícones do menu mobile -->
     <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-    <!-- Navegação -->
-    <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar" role="navigation" aria-label="Menu principal">
       <ul>
         <li><a href="/" class="<%= (page === 'home') ? 'active' : '' %>">Home</a></li>
         <li><a href="/ultraformer" class="<%= (page === 'ultraformer') ? 'active' : '' %>">Ultraformer</a></li>
         <li><a href="/botox" class="<%= (page === 'botox') ? 'active' : '' %>">Botox</a></li>
         <li><a href="/sculptra" class="<%= (page === 'sculptra') ? 'active' : '' %>">Sculptra</a></li>
         <li><a href="/glowup" class="<%= (page === 'glowup') ? 'active' : '' %>">Glow UP</a></li>
+        <li><a href="/harmonizacao-full-face" class="<%= (page === 'fullface') ? 'active' : '' %>">Harmonização Full Face</a></li>
+        <li><a href="/preenchimento-labial" class="<%= (page === 'preenchimento') ? 'active' : '' %>">Preenchimento Labial</a></li>
         <li><a href="/contato" class="<%= (page === 'contato') ? 'active' : '' %>">Contato</a></li>
       </ul>
+      
     </nav>
 
   </div>

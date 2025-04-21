@@ -1,4 +1,3 @@
-
 // Importa o módulo Express
 const express = require('express');
 
@@ -22,7 +21,7 @@ routes.get('/', (req, res) => {
 // ROTAS DE TRATAMENTOS / SERVIÇOS
 // ========================
 
-// Ultraformer (dentro de uma subpasta sobre sessões)
+// Ultraformer
 routes.get('/ultraformer', (req, res) => {
   res.render('pages/aboutSections/index', { page: 'ultraformer' });
 });
@@ -40,6 +39,16 @@ routes.get('/botox', (req, res) => {
 // Sculptra
 routes.get('/sculptra', (req, res) => {
   res.render('pages/sculptra', { page: 'sculptra' });
+});
+
+// Harmonização Full Face
+routes.get('/harmonizacao-full-face', (req, res) => {
+  res.render('pages/harmonizacaofullface', { page: 'fullface' });
+});
+
+// Preenchimento Labial
+routes.get('/preenchimento-labial', (req, res) => {
+  res.render('pages/preenchimentolabial', { page: 'preenchimento' });
 });
 
 
