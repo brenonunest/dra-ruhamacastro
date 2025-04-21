@@ -1,23 +1,8 @@
-/**
-* Template Name: Nova - v1.2.1
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Raleway", sans-serif;
-}
 
-/* Colors */
-:root {
   --color-default: #3b3b3b;
   --color-primary: #000000;
   --color-secondary: #000000;
@@ -25,16 +10,37 @@
   --color-letter2: #B2513D;
   --color-letter3: #4F321E;
   --color-letter4: #946659;
+
+  scroll-behavior: smooth;
 }
+
+/**
+* Template Name: Nova - v1.2.1
+* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+
+/* === 
+Set main reusable colors and fonts using CSS variables
+Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+ === */
+/* Fonts */
+
+
+/* Colors */
+
 
 /* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+/* === 
+General
+ === */
 body {
   font-family: var(--font-default);
   color: var(--color-letter);
@@ -47,7 +53,7 @@ a {
 }
 
 a:hover {
-  color:l;
+  color: var(--color-letter2);
   text-decoration: none;
 }
 
@@ -60,9 +66,10 @@ h6 {
   font-family: var(--font-primary);
 }
 
-/*--------------------------------------------------------------
-# Sections & Section Header
---------------------------------------------------------------*/
+
+/* === 
+Sections & Section Header
+ === */
 section {
   overflow: hidden;
   padding: 80px 0;
@@ -98,9 +105,10 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# edição de cabeçalhos paginas (botox, sculptra, contato)
---------------------------------------------------------------*/
+
+/* === 
+edição de cabeçalhos paginas (botox, sculptra, contato)
+ === */
 .breadcrumbs {
   padding: 140px 0 60px 0;
   min-height: 30vh;
@@ -155,9 +163,10 @@ section {
   content: "/";
 }
 
-/*--------------------------------------------------------------
-# Scroll top button
---------------------------------------------------------------*/
+
+/* === 
+Scroll top button
+ === */
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -188,9 +197,10 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+
+/* === 
+Preloader
+ === */
 #preloader {
   position: fixed;
   inset: 0;
@@ -234,18 +244,20 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+
+/* === 
+Disable aos animation delay on mobile devices
+ === */
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
+/* === 
+Header
+ === */
 .header {
   transition: all 0.5s;
   z-index: 997;
@@ -276,9 +288,10 @@ section {
   margin: 0;
 }
 
-/*--------------------------------------------------------------
-# Desktop Navigation
---------------------------------------------------------------*/
+
+/* === 
+Desktop Navigation
+ === */
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -398,9 +411,10 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Mobile Navigation
---------------------------------------------------------------*/
+
+/* === 
+Mobile Navigation
+ === */
 @media (max-width: 1279px) {
   .navbar {
     position: fixed;
@@ -503,9 +517,10 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
+/* === 
+Hero Section
+ === */
 .hero {
   width: 100%;
   min-height: 100vh;
@@ -610,9 +625,10 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Why Choose Us Section
---------------------------------------------------------------*/
+
+/* === 
+Why Choose Us Section
+ === */
 .why-us {
   padding-bottom: 0;
 }
@@ -698,9 +714,10 @@ section {
   padding: 0 0 80px 0;
 }
 
-/*--------------------------------------------------------------
-# edição de cor, fonte e afins das paginas (botox, sculptra, afins)
---------------------------------------------------------------*/
+
+/* === 
+edição de cor, fonte e afins das paginas (botox, sculptra, afins)
+ === */
 .about .content h3 {
   font-weight: 700;
   font-size: 36px;
@@ -732,9 +749,10 @@ section {
   top: -3px;
   color: var(--color-letter);
 }
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
+
+/* === 
+Call To Action Section
+ === */
 .call-to-action {
   background: linear-gradient(#00000038, #e9e2e416), url("../img/calltoaction.png") center left;
   background-size: cover;
@@ -779,9 +797,10 @@ section {
   background: var(--color-secondary);
 }
 
-/*--------------------------------------------------------------
-# Aqui edita os blogs da pagina principal (botox, sculptra...)
---------------------------------------------------------------*/
+
+/* === 
+Aqui edita os blogs da pagina principal (botox, sculptra...)
+ === */
 .recent-posts .post-box {
   transition: 0.3s;
   height: 100%;
@@ -865,9 +884,10 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Services Cards Section
---------------------------------------------------------------*/
+
+/* === 
+Services Cards Section
+ === */
 .services-cards {
   background: #f7f9fc;
 }
@@ -902,9 +922,10 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+
+/* === 
+Footer
+ === */
 .footer {
   font-size: 14px;
 }

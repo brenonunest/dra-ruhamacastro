@@ -1,15 +1,14 @@
-const express = require("express");
-const routes = require("./config/routes");
-const app = express();
 
-app.set('view engine', 'ejs');
-app.use(express.static('public'));
+<main id="main">
 
-// Configura a porta para usar a variável de ambiente PORT ou 3000 localmente
-const port = process.env.PORT || 3001;
+  <!-- ======= Breadcrumbs ======= -->
+  <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/assets/img/ruh1.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center">
+      <!-- Conteúdo do breadcrumb aqui -->
+    </div>
+  </div>
+  <!-- End Breadcrumbs -->
 
-app.listen(port, () => {
-    console.log("Aplicativo está online na porta " + port);
-});
+  <!-- ======= Why Choose Us Section ======= -->
 
-app.use('/', routes);
+</main>

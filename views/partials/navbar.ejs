@@ -1,57 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shahahahahahahahaha</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        /* Substitua "assets/img/LOGO-PRINCIPAL.png" pelo caminho correto da sua imagem */
-        #header .logo img {
-            display: flex;
-            margin: 60%;
-            width: auto;
-            max-width: 2775px; /* Largura máxima da imagem original */
-            transform: scale(5); /* Zoom de 200% */
-            transform-origin: 0 ; /* Define a origem do zoom para o canto superior esquerdo */
-        }
-    </style>
-</head>
-<body>
-
 <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-        <a href="/" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.png" alt=""> -->
-            <img src="assets/img/LOGO-PRINCIPAL.png" alt="Logo Principal">
-        </a>
+    <!-- Logo com altura maior -->
+    <a href="/" class="logo d-flex align-items-center" style="padding: 8px 0;">
+      <img src="/assets/img/LOGO-PRINCIPAL.png" alt="Logo Ruhama Castro" style="max-height: 200px;">
+    </a>
 
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    <!-- Ícones do menu mobile -->
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-        <nav id="navbar" class="navbar">
-            <ul>
+    <!-- Navegação -->
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="/" class="<%= (page === 'home') ? 'active' : '' %>">Home</a></li>
+        <li><a href="/ultraformer" class="<%= (page === 'ultraformer') ? 'active' : '' %>">Ultraformer</a></li>
+        <li><a href="/botox" class="<%= (page === 'botox') ? 'active' : '' %>">Botox</a></li>
+        <li><a href="/sculptra" class="<%= (page === 'sculptra') ? 'active' : '' %>">Sculptra</a></li>
+        <li><a href="/glowup" class="<%= (page === 'glowup') ? 'active' : '' %>">Glow UP</a></li>
+        <li><a href="/contato" class="<%= (page === 'contato') ? 'active' : '' %>">Contato</a></li>
+      </ul>
+    </nav>
 
-                <li><a id="home" href="/">Home</a></li>
-                <li><a id="about" href="/ultraformer">Ultraformer</a></li>
-                <li><a href="/botox">Botox</a></li>
-                <li><a href="/sculptra">Sculptra</a></li>
-                <li><a href="/glowup">Glow UP</a></li>
-
-                </li>
-                <li><a href="/contato">Contato</a></li>
-
-            </ul>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
-
-</body>
-</html>
+  </div>
+</header>
